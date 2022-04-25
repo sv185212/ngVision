@@ -1,0 +1,26 @@
+.search-results-container{
+  height: calc(100% - 3rem);
+  overflow: auto;
+  position: fixed;
+  width: 15rem;
+  .list-group-item{
+    background-color: #323332;
+    color: #fff;
+    border:#fff solid 1px;
+    cursor: pointer;
+  }
+  .list-group-item:hover{
+    background-color: #535453;
+    color: green;
+    border:#fff solid 1px;
+    cursor: pointer;
+  }
+  // .list-group-item:first {
+  //   cursor: none;
+  //   position: fixed;
+  //   background-color: #535453;
+  // }
+
+}
+
+

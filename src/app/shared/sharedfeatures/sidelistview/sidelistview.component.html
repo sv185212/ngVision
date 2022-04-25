@@ -1,0 +1,14 @@
+<div class="search-results-container"
+    infinite-scroll
+    [scrollWindow]="false"
+    (scrolled)="onScrollDown($event)"
+    (scrolledUp)="onScrollUp($event)"
+   >
+      <div class="list-group">
+        <!-- <a class = "list-group-item list-group-item-action">Terminals<span class="badge badge-secondary">{{listArray.length}}</span></a> -->
+        <a class="list-group-item list-group-item-action" *ngFor="let item of listArray">
+          <p class="mb-1" (click)="selectedItem(item)">{{item['terminalName']}}</p>
+        </a>
+      </div>
+
+</div>

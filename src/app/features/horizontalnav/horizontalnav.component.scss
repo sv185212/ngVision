@@ -1,0 +1,16 @@
+.navbar{
+  color:#fff;
+  height: 3rem;
+  display: flex;
+  margin-left: 5rem;
+  padding: 0;
+  .navbar-nav {
+    display: inline-block;
+  }
+}
+.fixedTop {
+  position: fixed;
+}
+.bg-dark {
+  background-color: #263238 !important
+}
